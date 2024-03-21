@@ -1,0 +1,230 @@
+*{
+	padding: 0; margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	font-size: 1vw;
+}
+h2{
+	font-size: 3vw;
+	font-weight: 400;
+	 text-align: center;
+	   margin: 0 auto;
+	   font-family: 'Montserrat', sans-serif;  
+}
+.wrap{
+	max-width:1080px;
+	min-width:320px;
+	padding:0 15px;
+}
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	padding: 30px 15px;
+	box-sizing: border-box;
+	background: #5e4a48;
+}
+.menu{
+	display: flex;
+	list-style: none;
+}
+
+.menu li{
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+.menu li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #f4a171;
+	text-decoration: none;
+}
+.first{
+	background:#e5e3da;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 0.5vw;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+.alisa_present{
+	background:#e5e3da;
+}
+.alisa_present img{
+	margin-left: 2rem;
+}
+ .rectangle_bg {
+    width: 10rem;
+    height: 0.4vw;
+	background:#e5e3da;
+	flex: 95%;
+	
+  }
+  .rectangle_color {
+    width: 10rem;
+    height: 0.4vw;
+    background-color: #5e4a48;
+	flex: 25%;
+  }
+   .rectangle_otstup {
+    height: 5vw;
+    background-color: #e5e3da;
+  }
+  
+  
+  .price-item2 {
+  flex: 25%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.price-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-item {
+  width: 23%;
+  background:#f4f4f4;
+}
+
+.price-item2 {
+  width: 23%;
+  background:#f4f4f4;
+}
+
+.header_item {
+	font-size: 1vw;
+  background-color: #5e4a48;
+  color: #ffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 1px;
+  padding-right: 1px;
+  text-align: center;
+}
+
+.price_marg{
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+h3{
+	padding-top: 12px;
+    padding-bottom: 12px;
+	background: #f4f4f4;
+	text-align: center;
+	font-size: 1vw;
+}
+
+.price_ul{
+	background:#f4f4f4;
+}
+
+.price_ul li{
+	font-size: 16px;
+	margin-left: 1.1vw;
+	margin-right: 0.8vw;
+	background:#f4f4f4;
+	font-weight: 600;
+}
+
+
+
+.price-item p{
+	text-align: left;
+	padding-left: 20px; 
+	font-size: 0.8vw;
+}
+
+.rectangle_otstup_price {
+    height: 2vw;
+    background-color: #f4f4f4;
+  }
+  
+.btn_zakaz{
+	color: #5e4a48;	
+	text-decoration: none;
+	font-size: 0.85vw;
+	padding: 0.45vw;
+	border: 3px solid #5e4a48;
+	box-sizing: border-box;
+	margin: 1vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	align-items: center;
+	text-align:center;
+	font-weight: 700;
+}
+
+.btn_wrap :hover{
+	background-color: #b5928f;
+}
+
+.whatsapp{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.div_number_alisa{
+	  background-image: url("../img/lets.jpg");
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+}
+
+.number_alisa{
+	padding-top:6vw;
+	text-align: center;
+	font-weight: 900;
+	font-size: 2vw;
+}
+
+.email{
+	padding-bottom:6vw;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1vw;
+}
+
+.width_btn {
+	text-align: center;
+	 width: 600px;
+	margin: 0 auto; 
+}
+
+.wrap_magazine{
+	margin-left:3vw;
+	margin-right:3vw;
+}
+
+.magazine{
+	padding: 2vw;
+}
+
+.block_magazine {
+  display: flex;
+  justify-content: center;
+}
